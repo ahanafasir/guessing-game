@@ -1,0 +1,92 @@
+/* Media Queries */
+
+/* For screens smaller than 768px (typical tablet size) */
+@media (max-width: 768px) {
+  body {
+    font-size: 50%; /* Adjust the base font size for smaller screens */
+  }
+
+  header {
+    height: 20vh; /* Reduce header height for smaller screens */
+  }
+
+  main {
+    height: 80vh; /* Increase main height for smaller screens */
+    flex-direction: column; /* Stack main content vertically */
+  }
+
+  .left {
+    width: 90%; /* Adjust the width of the guess input section */
+  }
+
+  .right {
+    width: 90%; /* Adjust the width of the score section */
+    font-size: 1.6rem; /* Reduce font size for smaller screens */
+  }
+
+  h1 {
+    font-size: 3rem; /* Reduce h1 font size for smaller screens */
+  }
+
+  .number {
+    font-size: 4rem; /* Reduce number font size for smaller screens */
+  }
+
+  .between {
+    font-size: 1.2rem; /* Reduce font size for smaller screens */
+  }
+
+  .again {
+    top: 1rem; /* Adjust button position */
+    left: 1rem; /* Adjust button position */
+  }
+
+  .guess {
+    font-size: 3rem; /* Reduce guess input font size for smaller screens */
+    width: 80%; /* Adjust the width of the guess input */
+  }
+
+  .btn {
+    font-size: 1.6rem; /* Reduce button font size for smaller screens */
+    padding: 1.5rem 2rem; /* Adjust button padding */
+  }
+}
+
+/* For screens smaller than 480px (typical mobile size) */
+@media (max-width: 480px) {
+  body {
+    font-size: 50%; /* Further reduce font size for smaller screens */
+  }
+
+  header {
+    height: 30vh; /* Reduce header height for mobile screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Reduce h1 font size for mobile screens */
+  }
+
+  .number {
+    font-size: 3rem; /* Reduce number font size for mobile screens */
+    padding: 2rem 0rem; /* Adjust number padding */
+  }
+
+  .between {
+    font-size: 1rem; /* Reduce font size for mobile screens */
+  }
+
+  .again {
+    top: 1rem; /* Further adjust button position for mobile screens */
+    left: 1rem; /* Further adjust button position for mobile screens */
+  }
+
+  .guess {
+    font-size: 2.5rem; /* Reduce guess input font size for mobile screens */
+    padding: 1.5rem; /* Adjust guess input padding */
+  }
+
+  .btn {
+    font-size: 1.4rem; /* Reduce button font size for mobile screens */
+    padding: 1.2rem 1.5rem; /* Further adjust button padding for mobile screens */
+  }
+}
