@@ -2,6 +2,8 @@
 
 This is a simple number guessing game implemented in JavaScript, utilizing Document Object Model (DOM) manipulation to create an interactive user experience. The game is designed for players to guess a randomly generated number between 1 and 20.
 
+visit: https://guessinggame-dom.netlify.app/
+
 ## Features
 
 - Randomly generated number between 1 and 20 for each game session.
