@@ -62,6 +62,13 @@
     height: 30vh; /* Reduce header height for mobile screens */
   }
 
+  header img {
+    height: 15%;
+    left: 37%;
+    top: 5.75%;
+    position: absolute;
+  }
+
   h1 {
     font-size: 2rem; /* Reduce h1 font size for mobile screens */
   }

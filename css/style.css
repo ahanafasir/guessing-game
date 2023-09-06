@@ -28,6 +28,13 @@ header {
   border-bottom: 7px solid #eee;
 }
 
+header img {
+  height: 15%;
+  left: 50%;
+  top: 10%;
+  position: absolute;
+}
+
 main {
   height: 65vh;
   color: #eee;
